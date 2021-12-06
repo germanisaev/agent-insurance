@@ -1,0 +1,256 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "DepartmentName": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "department",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "id": 1,
+      "EmployeeName": "Liam Neeson",
+      "EmployeePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFUlEQVRogc2Zz28bRRTHfeHHgRsHQOXGjyIOiP8BcQchUQEXbqCilANIcOSAxKUhSQsqhZakLSGhiLT50ThpfjV2aX4Q24l/xbEdJ7Vnbe+udx17d0MLyI83azu4jp16ZtcJIz351+6bz3fem5k3a4fDhqaL4tOaKryrK6THUMmkrggxQxFUfP2LWuV9rPwb6dlVhHfoPXb0zd0KBfKkoQqnEOgPfAUe01WyjK8d1NehgRu51LMI3Y2dG7zgDYTo6LPLyCWPtQ0cYOUR7Oxj7EyzC7yBEAPT7QuA6GO2whdkchwdr7YLfJ8pgu+eRF60Bd7Ipd9q56g3N1I08sKbluD1PHkfc/Pvw4evpJRC/jEU8iHfyCupD/jCT0CX4mAIQdDJGuiCH/R0GIzclhUxHWzwNG2oepbRIn7QIhOg+Qah6O1vaJr/N9Dj86CLcfZI5IU3WoL/cyf5POZfoWXn0iZo686m0A3NNwB64o4ZrZb7wXlYlIWXDoQHCD7KtNrICRzVITb42ohEbjKJQDYvXc6bCtBV4fPWQ0tAC41ww1fNjARbOn3aJO+Tx+iO2KojLeWzDF9NJ0NufYLTVNKl7Wf2jz6WBywjoa1P2COARmFrgS0KqtD5ADwtplhrm+LaVdsE0NWLTQDRHygA8ctTLA7oxLML3rTgMJOAyhz8qDZ92Eri3F1bBdCVjFUAptFSGR4nBAooHamAAIcAZNay2acc9CTFEb7/QQoJsKuQE47yMZD95uJq85KB2cI3uATQQ5CDnlO5BASG7Uuh6DSXAGQfpxHY5LmZuf45SEDiNmcEhBiWzYLCJWDTbZsAHXd1rggoRMYICPe5BNhVSqAZYow3Ave4BdAy2hYBuKMzVaT1AnhTiFoxcM16/m9McU7g/1IozuuAnq4s53/Syy2gPIk5l1HTQTpgPf8ZSun9Vl5GuTaySggtVaVaeMwCfGUjow9arTixspzqKf70oYalxNsOWhAxF3O1Jm/jqepnZviCj3/1qYx+uZgrn4XNp8TczpQg265c8PRDLmhh9VHNcnqh9kDTYcWZtO6G1Nz51uDRElPf4j0uSwJwAp+sP1K2fKCvt51kADbGuiEx+Q3srFxpCp9fvgwx5xlYH/ka8tsWls/6I2XlVNbF67CY9IMw9wNEUEQY4ZKz50BZvGSONk0XZakPtqfPQWi40/w9Nfc93hOwEoHTlh+r1FouNAPp+QumxcbPQvD6adNC1ztN6OrnyFgPEBRKr1PCs7ypU2z69xTubJ8xhVJKgBKa3oOvWmr2PMSdZ2F9tMsc8ej4Gbg7892+66hwXWLbyDSFfNIQnjbzXxhF8DZ1oKSgQEKgRlwgeoYg7bq4D4rVMuiD+qI+qW/aR/P+iefAR4u01T/c1bIxyMcXQF4dg8ztPsvADxXk7gXJcw3UDdwghTBNmerE1eg/RQfCV5uWjb4n+8ZKmd8vtx34oYKQgbJomciJluCrLbfmvHLU8FWT/M5LTPDVJvsnLqRdPx4dPM4PHMifuOD3IhGY/Crt7i0dPnxvSQ5OfWkJfk9EePr17OLA7mHBiwsDhhy6+Zot8NUGW3OPS2s3htoaDVcviL7RW6I494St8LUtH5x8VfSOetJuG+cG+hJ9Iyuq3/VK28DrmxS69YLsd17NLA5qvOCZpUEttzb+ixidee7QwBu1XHT6ZVyxukXPsFdc/lXO3um/n3b3lTLzF4EafU+/o7/Ra+i19B47+v4XIoArnEueMPAAAAAASUVORK5CYII="
+    },
+    {
+      "id": 2,
+      "EmployeeName": "Denzel Washington",
+      "EmployeePicture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFUlEQVRogc2Zz28bRRTHfeHHgRsHQOXGjyIOiP8BcQchUQEXbqCilANIcOSAxKUhSQsqhZakLSGhiLT50ThpfjV2aX4Q24l/xbEdJ7Vnbe+udx17d0MLyI83azu4jp16ZtcJIz351+6bz3fem5k3a4fDhqaL4tOaKryrK6THUMmkrggxQxFUfP2LWuV9rPwb6dlVhHfoPXb0zd0KBfKkoQqnEOgPfAUe01WyjK8d1NehgRu51LMI3Y2dG7zgDYTo6LPLyCWPtQ0cYOUR7Oxj7EyzC7yBEAPT7QuA6GO2whdkchwdr7YLfJ8pgu+eRF60Bd7Ipd9q56g3N1I08sKbluD1PHkfc/Pvw4evpJRC/jEU8iHfyCupD/jCT0CX4mAIQdDJGuiCH/R0GIzclhUxHWzwNG2oepbRIn7QIhOg+Qah6O1vaJr/N9Dj86CLcfZI5IU3WoL/cyf5POZfoWXn0iZo686m0A3NNwB64o4ZrZb7wXlYlIWXDoQHCD7KtNrICRzVITb42ohEbjKJQDYvXc6bCtBV4fPWQ0tAC41ww1fNjARbOn3aJO+Tx+iO2KojLeWzDF9NJ0NufYLTVNKl7Wf2jz6WBywjoa1P2COARmFrgS0KqtD5ADwtplhrm+LaVdsE0NWLTQDRHygA8ctTLA7oxLML3rTgMJOAyhz8qDZ92Eri3F1bBdCVjFUAptFSGR4nBAooHamAAIcAZNay2acc9CTFEb7/QQoJsKuQE47yMZD95uJq85KB2cI3uATQQ5CDnlO5BASG7Uuh6DSXAGQfpxHY5LmZuf45SEDiNmcEhBiWzYLCJWDTbZsAHXd1rggoRMYICPe5BNhVSqAZYow3Ave4BdAy2hYBuKMzVaT1AnhTiFoxcM16/m9McU7g/1IozuuAnq4s53/Syy2gPIk5l1HTQTpgPf8ZSun9Vl5GuTaySggtVaVaeMwCfGUjow9arTixspzqKf70oYalxNsOWhAxF3O1Jm/jqepnZviCj3/1qYx+uZgrn4XNp8TczpQg265c8PRDLmhh9VHNcnqh9kDTYcWZtO6G1Nz51uDRElPf4j0uSwJwAp+sP1K2fKCvt51kADbGuiEx+Q3srFxpCp9fvgwx5xlYH/ka8tsWls/6I2XlVNbF67CY9IMw9wNEUEQY4ZKz50BZvGSONk0XZakPtqfPQWi40/w9Nfc93hOwEoHTlh+r1FouNAPp+QumxcbPQvD6adNC1ztN6OrnyFgPEBRKr1PCs7ypU2z69xTubJ8xhVJKgBKa3oOvWmr2PMSdZ2F9tMsc8ej4Gbg7892+66hwXWLbyDSFfNIQnjbzXxhF8DZ1oKSgQEKgRlwgeoYg7bq4D4rVMuiD+qI+qW/aR/P+iefAR4u01T/c1bIxyMcXQF4dg8ztPsvADxXk7gXJcw3UDdwghTBNmerE1eg/RQfCV5uWjb4n+8ZKmd8vtx34oYKQgbJomciJluCrLbfmvHLU8FWT/M5LTPDVJvsnLqRdPx4dPM4PHMifuOD3IhGY/Crt7i0dPnxvSQ5OfWkJfk9EePr17OLA7mHBiwsDhhy6+Zot8NUGW3OPS2s3htoaDVcviL7RW6I494St8LUtH5x8VfSOetJuG+cG+hJ9Iyuq3/VK28DrmxS69YLsd17NLA5qvOCZpUEttzb+ixidee7QwBu1XHT6ZVyxukXPsFdc/lXO3um/n3b3lTLzF4EafU+/o7/Ra+i19B47+v4XIoArnEueMPAAAAAASUVORK5CYII="
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "DepartmentName": "Department 1",
+      "url": "http://localhost:3000/departments/1",
+      "menuId": "1",
+      "ParentID": null
+    },
+    {
+      "id": "1-1",
+      "DepartmentName": "Department 2",
+      "url": "http://localhost:3000/departments/1-1",
+      "menuId": "1-1",
+      "ParentID": "1d8f0e9b-e187-e911-80e2-000c29dc2aac"
+    },
+    {
+      "id": "1-2",
+      "DepartmentName": "Department 3",
+      "url": "http://localhost:3000/departments/1-2",
+      "menuId": "1-2",
+      "ParentID": "1d8f0e9b-e187-e911-80e2-000c29dc2aac"
+    },
+    {
+      "id": "1-3",
+      "DepartmentName": "Department 4",
+      "url": "http://localhost:3000/departments/1-3",
+      "menuId": "1-3",
+      "ParentID": "1-2"
+    },
+    {
+      "id": "1-4",
+      "DepartmentName": "Department 5",
+      "url": "http://localhost:3000/departments/1-4",
+      "menuId": "1-4",
+      "ParentID": "1-2"
+    },
+    {
+      "id": "1-5",
+      "DepartmentName": "Department 6",
+      "url": "http://localhost:3000/departments/1-5",
+      "menuId": "1-5",
+      "ParentID": null
+    },
+    {
+      "id": "1-6",
+      "DepartmentName": "Department 7",
+      "url": "http://localhost:3000/departments/1-6",
+      "menuId": "1-6",
+      "ParentID": null
+    },
+    {
+      "id": "1-7",
+      "DepartmentName": "Department 8",
+      "url": "http://localhost:3000/departments/1-7",
+      "menuId": "1-7",
+      "ParentID": "1-6"
+    },
+    {
+      "id": "1-8",
+      "DepartmentName": "Department 9",
+      "url": "http://localhost:3000/departments/1-8",
+      "menuId": "1-8",
+      "ParentID": null
+    },
+    {
+      "id": "1-9",
+      "DepartmentName": "Department 10",
+      "url": "http://localhost:3000/departments/1-9",
+      "menuId": "1-9",
+      "ParentID": "1-8"
+    },
+    {
+      "id": "1-10",
+      "DepartmentName": "Department 11",
+      "url": "http://localhost:3000/departments/1-10",
+      "menuId": "1-10",
+      "ParentID": "1-8"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "TaskNumber": 100,
+      "TaskName": "The Marksman",
+      "StatusID": 3,
+      "EmployeeName": "Liam Neeson",
+      "DepartmentName": "State",
+      "DueDate": "Mon Dec 05 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 2,
+      "TaskNumber": 101,
+      "TaskName": "The Ice Road",
+      "StatusID": 1,
+      "EmployeeName": "Liam Neeson",
+      "DepartmentName": "Interior",
+      "DueDate": "Mon Dec 05 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 3,
+      "TaskNumber": 103,
+      "TaskName": "Non-Stop",
+      "StatusID": 4,
+      "EmployeeName": "Liam Neeson",
+      "DepartmentName": "State",
+      "DueDate": "Mon Dec 06 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 4,
+      "TaskNumber": 104,
+      "TaskName": "The Gray",
+      "StatusID": 1,
+      "EmployeeName": "Liam Neeson",
+      "DepartmentName": "Treasury",
+      "DueDate": "Mon Dec 05 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 5,
+      "TaskNumber": 105,
+      "TaskName": "The Marksman",
+      "StatusID": 2,
+      "EmployeeName": "Denzel Washington",
+      "DepartmentName": "State",
+      "DueDate": "Mon Dec 04 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 6,
+      "TaskNumber": 106,
+      "TaskName": "The Marksman",
+      "StatusID": 1,
+      "EmployeeName": "Denzel Washington",
+      "DepartmentName": "Treasury",
+      "DueDate": "Mon Dec 06 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 7,
+      "TaskNumber": 107,
+      "TaskName": "The Marksman",
+      "StatusID": 1,
+      "EmployeeName": "Denzel Washington",
+      "DepartmentName": "Defense",
+      "DueDate": "Mon Dec 04 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 8,
+      "TaskNumber": 108,
+      "TaskName": "The Marksman",
+      "StatusID": 1,
+      "EmployeeName": "Denzel Washington",
+      "DepartmentName": "Defense",
+      "DueDate": "Mon Dec 03 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 9,
+      "TaskNumber": 109,
+      "TaskName": "The Marksman",
+      "StatusID": 2,
+      "EmployeeName": "Denzel Washington",
+      "DepartmentName": "State",
+      "DueDate": "Mon Dec 07 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 10,
+      "TaskNumber": 110,
+      "TaskName": "The Marksman",
+      "StatusID": 3,
+      "EmployeeName": "Liam Neeson",
+      "DepartmentName": "Defense",
+      "DueDate": "Mon Dec 08 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 11,
+      "TaskNumber": 111,
+      "TaskName": "The Marksman",
+      "StatusID": 1,
+      "EmployeeName": "Liam Neeson",
+      "DepartmentName": "Justice",
+      "DueDate": "Mon Dec 08 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 12,
+      "TaskNumber": 112,
+      "TaskName": "The Marksman",
+      "StatusID": 4,
+      "EmployeeName": "Liam Neeson",
+      "DepartmentName": "Justice",
+      "DueDate": "Mon Dec 09 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 13,
+      "TaskNumber": 113,
+      "TaskName": "The Marksman",
+      "StatusID": 1,
+      "EmployeeName": "Liam Neeson",
+      "DepartmentName": "Interior",
+      "DueDate": "Mon Dec 06 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 14,
+      "TaskNumber": 114,
+      "TaskName": "The Marksman",
+      "StatusID": 2,
+      "EmployeeName": "Liam Neeson",
+      "DepartmentName": "Commerce",
+      "DueDate": "Mon Dec 06 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 15,
+      "TaskNumber": 115,
+      "TaskName": "The Marksman",
+      "StatusID": 3,
+      "EmployeeName": "Liam Neeson",
+      "DepartmentName": "Agriculture",
+      "DueDate": "Mon Dec 11 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    },
+    {
+      "id": 16,
+      "TaskNumber": 116,
+      "TaskName": "Taken",
+      "StatusID": 4,
+      "EmployeeName": "Liam Neeson",
+      "DepartmentName": "Commerce",
+      "DueDate": "Mon Dec 06 2021 04:20:45 GMT+0200 (Israel Standard Time)"
+    }
+  ]
+}

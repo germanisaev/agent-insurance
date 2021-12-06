@@ -1,0 +1,41 @@
+
+<select (change)="onTableSizeChange($event)" class="custom-select">
+    <option *ngFor="let size of tableSizes" [ngValue]="size" [selected]="size == 10">
+      {{ size }}
+    </option>
+</select>
+
+<table class="table table-striped" *ngIf="tasks$ | async as tasks">
+    <thead>
+        <tr>
+            <th>Task#</th>
+            <th>Task Name</th>
+            <th>Status</th>
+            <th>Employee Name</th>
+            <th>Department</th>
+            <th>DueDate</th>
+        </tr>
+    </thead>
+    <tbody *ngIf="selected$ | async as searchText">
+        <tr *ngFor="let task of (tasks | filter: searchText | paginate : {
+            itemsPerPage: tableSize,
+            currentPage: page,
+            totalItems: count
+          }) as result; index as i" [ngClass]="{'highlighted':i === currentTask}">
+            <td>{{task.TaskNumber}}</td>
+            <td>{{task.TaskName}}</td>
+            <td>{{task.StatusID}}</td>
+            <td class="cursor-pointer" (click)="selectedTask(i)">{{task.EmployeeName}}</td>
+            <td class="cursor-pointer" (click)="selectedTask(i)">{{task.DepartmentName}}</td>
+            <td [ngStyle]="{'color':isLess(task.DueDate) ? 'red' : '' }">{{task.DueDate | date: 'dd/MM/yyyy'}}</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<pagination-controls 
+      responsive="true" 
+      previousLabel="Prev" 
+      nextLabel="Next" 
+      (pageChange)="onTableDataChange($event)">
+    </pagination-controls>

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "insurance-app"
+    }
+  },
+  "defaultProject": "insurance-app",
+  "cli": {
+    "analytics": "2d76e1dc-2d9a-40eb-967e-5a8d534ed9fd"
+  }
 }

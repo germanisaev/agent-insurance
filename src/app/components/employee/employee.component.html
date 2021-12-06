@@ -1,0 +1,12 @@
+
+<form [formGroup]="employeeForm">
+    <div id="input_container">
+        <input type="text" name="employee" id="employee_list" [value]="selectedEmployeeName" (click)="isDrop = !isDrop" formControlName="employeeControl">
+        <i class="fa fa-angle-down" id="input_img" (click)="isDrop = !isDrop"></i>
+        <div *ngIf="isDrop" class="employee-dropdown">
+            <div class="item-dropdown" *ngFor="let employee of employees" (click)="optionSelected(employee)">
+                <img height="30" width="30" [src]="employee.EmployeePicture"/> {{employee.EmployeeName}}
+            </div>
+        </div>
+    </div>
+</form>

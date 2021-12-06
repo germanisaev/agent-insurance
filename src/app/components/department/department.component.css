@@ -1,0 +1,14 @@
+.tree {
+    display: flex;
+    direction: rtl;
+    margin-top: 60px;
+}
+.tree__children-section {
+    margin-right: 50px;
+}
+.tree__children-section__children::after {
+    content: ",";
+}
+.tree__children-section__children--last::after {
+    content: none;
+}
